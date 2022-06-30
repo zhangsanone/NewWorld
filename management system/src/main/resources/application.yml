@@ -1,0 +1,35 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    static-path-pattern: /**
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    suffix: .html
+    prefix: classpath:/templates/
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+    username: root
+    password: ******      #填写自己的mysql密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/hrdb?serverTimezone=UTC&characterEncoding=UTF-8
+  hikari:
+    minimum-idle: 8
+    maximum-pool-size: 20
+    auto-commit: true
+    idle-timeout: 30000
+    pool-name: DatebookHikariCP
+    max-lifetime: 1800000
+    connection-timeout: 3000000
+    connection-test-query: select 1
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+    show-sql: true

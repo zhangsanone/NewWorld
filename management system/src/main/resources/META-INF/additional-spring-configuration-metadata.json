@@ -1,0 +1,43 @@
+{
+  "properties": [
+    {
+      "name": "spring.hikari.minimum-idle",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.minimum-idle."
+    },
+    {
+      "name": "spring.hikari.auto-commit",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.auto-commit."
+    },
+    {
+      "name": "spring.hikari.connection-test-query",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.connection-test-query."
+    },
+    {
+      "name": "spring.hikari.connection-timeout",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.connection-timeout."
+    },
+    {
+      "name": "spring.hikari.max-lifetime",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.max-lifetime."
+    },
+    {
+      "name": "spring.hikari.pool-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.pool-name."
+    },
+    {
+      "name": "spring.hikari.idle-timeout",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.idle-timeout."
+    },
+    {
+      "name": "spring.hikari.maximum-pool-size",
+      "type": "java.lang.String",
+      "description": "Description for spring.hikari.maximum-pool-size."
+    }
+  ] }
